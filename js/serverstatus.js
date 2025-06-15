@@ -120,7 +120,7 @@ function uptime() {
 				else
 					newnetstr += (result.servers[i].network_tx/1000/1000).toFixed(1) + "M";
           
-          shinnerhtml+=shstr.replace("@name",result.servers[i].name).replace("@network_rxandnetwork_tx",newnetstr).replace("@type",result.servers[i].type).replace("@online",result.servers[i].online4?'text-success':'text-error').replace("@location",result.servers[i].location).replace("@load",result.servers[i].load).replace("@load",result.servers[i].load).replace("@region",result.servers[i].region);
+          shinnerhtml+=shstr.replace("@name",result.servers[i].name).replace("@network_rxandnetwork_tx",newnetstr).replace("@type",result.servers[i].type).replace("@online",result.servers[i].online4?'text-success':'text-error').replace("@location",result.servers[i].location).replace("@load",result.servers[i].load).replace("@load",result.servers[i].load).replace("img/clients/@region.png","https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/image/clients/" + result.servers[i].region);
           
           
           

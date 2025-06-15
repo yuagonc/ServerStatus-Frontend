@@ -1,6 +1,6 @@
 @media only screen and (min-width: 992px) {
 	.background {
-		background: url(../img/tenshi_1890x400.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi_1890x400.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
@@ -8,7 +8,7 @@
 @media only screen and (max-width: 992px) {
 	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
 	.background {
-		background: url(../img/tenshi_1890x400.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi_1890x400.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
@@ -18,7 +18,7 @@
 	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
 	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
 	.background {
-		background: url(../img/tenshi.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
@@ -29,7 +29,7 @@
 	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
 	#load, tr td:nth-child(6)			{ display:none; visibility:hidden; }
 	.background {
-		background: url(../img/tenshi.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
@@ -41,7 +41,7 @@
 	#traffic, tr td:nth-child(8)		{ display:none; visibility:hidden; }
 	#load, tr td:nth-child(6)			{ display:none; visibility:hidden; }
 	.background {
-		background: url(../img/tenshi.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
@@ -57,7 +57,7 @@
 	#hdd, tr td:nth-child(11)		{ display:none; visibility:hidden; }
 	#cpu, #ram { min-width: 20px; max-width: 40px; }
 	.background {
-		background: url(../img/tenshi.jpg) no-repeat;
+		background: url(https://cdn.jsdelivr.net/gh/yuagonc/ServerStatus-Frontend/css/core.css/img/tenshi.jpg) no-repeat;
 		background-size: 100%; 
 		/* height : 12vw; */
 	}
